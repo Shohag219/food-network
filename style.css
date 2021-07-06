@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* -----------------------------------navbar ------------------------------------*/
+#navbar{
+    background: #fd4d30;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.logo{
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 5px 10px;
+    height: 80px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 32px 34px;
+}
+
+nav ul li a{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: black;   
+}
+
+/* -------------------------------first-section -------------------------------------*/
+
+.first-section{
+    background-image: url(images/shapes/shape-4.png);
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.text{
+    margin-left: 6%;
+    width: 50%;
+}
+
+.text-big{
+    font-size: 75px;
+}
+
+.skip-color{
+    color: coral;
+    font-size: 60px;
+}
+
+.text h1{
+    font-family: 'Otomanopee One', sans-serif;
+    margin-top: 70px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.text p{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.text img{
+    
+    width: 72%;
+    margin-left: 20px;
+}
+
+/* -----------------------------------------about---------------------------------- */
+
+#about-us{
+    background-image: url(images/shapes/frame-1.png);
+    padding-top: 95px;
+    width: 100%;
+    height: 90vh;
+    
+}
+
+
+/* ------------------------------------Recipies--------------------------------- */
+
+#recipies-section{
+    margin-bottom: 120px;
+}
+.recipies h1{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.item-1{
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px rgb(112, 112, 111);
+    padding: 20px;
+    /* border: 2px solid red; */
+    margin: 25px;
+}
+
+.item-1 img{
+    margin-bottom: 10px;
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+    height: 265px;
+}
+
+.recepics-item{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+.item-1 h2{
+    margin-bottom: 10px;
+}
+
+.item-1 p{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+/* -------------------------------Social------------------------------ */
+
+#social-titel h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.social{
+    box-shadow: 10px 10px 40px rgb(112 112 111);
+    text-align: center;
+    width: 90%;
+    margin-bottom: 120px;
+    height: 230px;
+    margin-left: 5%;
+ 
+}
+
+.subscriver{
+    width: 80%;
+    display: flex;
+    
+}
+
+.subscriver-no{
+    display: block;
+    margin-left: 230px;
+    
+}
+
+.subscriver-no h1{
+    margin-top: 35px;
+}
+
+.subscriver-no p{
+    font-size: 20px;
+}
+
+
+/* -------------------------------clints------------------------------ */
+
+#clints{
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    margin-bottom: 70px;
+    margin-left: 25px;
+}
+#clints h1{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* -------------------------------login------------------------------ */
+
+#login-form{
+    background-image: url(images/shapes/frame-3.jpg);
+    padding: 30px;
+    margin-bottom: 70px;
+}
+.login{
+    margin-left: 30%;
+    
+}
+#login-form h1{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 35px;
+    width: 533px;
+    text-align: center;
+    margin-left: 30%;
+    height: 55px;
+    margin-bottom: 29px;
+    
+}
+
+.login input{
+    width: 469px;
+    padding: 15px 20px;
+    display: block;
+    margin: 7px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    
+}
+
+.button{
+    cursor: pointer;
+    width: 506px;
+    margin: 20px 7px;
+    height: 37px;
+    background-color: coral;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.login-text label {
+    font-size: 20px;
+}
+
+
+/* -------------------------------footer------------------------------ */
+
+#footer{
+    background-color: black;
+    height: 150px;
+    color: #fff;
+    text-align: center;
+}
+
+
+#footer h1{
+    font-family: 'Otomanopee One', sans-serif;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#footer p{
+    font-size: 20px;
+}
+
+
